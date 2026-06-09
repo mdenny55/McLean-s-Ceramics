@@ -22,3 +22,12 @@
    Reload env: .env.local
  GET / 200 in 891ms
  GET / 200 in 891ms
+   Reload env: .env.local
+ GET / 200 in 177ms
+ GET / 200 in 170ms
+ ✓ Compiled in 683ms
+ ✓ Compiled in 180ms
+ ✓ Compiled / in 173ms
+ GET / 200 in 596ms
+ GET / 200 in 619ms
+ GET / 200 in 348ms

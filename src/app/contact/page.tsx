@@ -12,7 +12,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-gray-100">
       <section className="max-w-2xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-light text-gray-900 mb-2">Get in Touch</h1>
         <p className="text-gray-600 mb-12">
