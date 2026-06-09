@@ -19,3 +19,6 @@
  ✓ Compiled / in 40ms
  GET / 200 in 207ms
  GET / 200 in 224ms
+   Reload env: .env.local
+ GET / 200 in 891ms
+ GET / 200 in 891ms
