@@ -3,7 +3,7 @@ import { potteryPieces } from "@/data/pottery";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gray-400">
+    <main className="min-h-screen" style={{backgroundColor: '#8B8A8A'}}>
       {/* Gallery Grid */}
       <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

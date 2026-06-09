@@ -24,7 +24,7 @@ export default function PieceDetailPage({ params }: { params: Promise<{ id: stri
   }
 
   return (
-    <main className="min-h-screen bg-gray-400">
+    <main className="min-h-screen" style={{backgroundColor: '#8B8A8A'}}>
       {/* Back link */}
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Link href="/" className="text-sm text-gray-600 hover:text-gray-900 underline">
