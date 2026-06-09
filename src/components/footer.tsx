@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-8">
-      <div className="container mx-auto text-center text-sm">
-        © {new Date().getFullYear()} Rose&apos;s Ceramics. All rights reserved.
+    <footer className="bg-white border-t border-gray-200 mt-16">
+      <div className="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-gray-600">
+        <p>© {new Date().getFullYear()} McLean&apos;s Ceramics. All handmade.</p>
       </div>
     </footer>
   );

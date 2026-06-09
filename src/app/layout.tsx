@@ -3,8 +3,8 @@ import Footer from "@/components/footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "Rose's Ceramics",
-  description: "Showcasing handmade pottery and ceramics by Rose",
+  title: "McLean's Ceramics",
+  description: "Showcasing handmade pottery and ceramics by McLean",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
