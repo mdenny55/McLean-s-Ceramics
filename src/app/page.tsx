@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { potteryPieces } from "@/data/pottery";
-import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -13,6 +12,7 @@ export default function HomePage() {
               <div className="group cursor-pointer">
                 {/* Image */}
                 <div className="bg-gray-200 aspect-square mb-4 overflow-hidden rounded-sm">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={piece.images[0]}
                     alt={piece.name}

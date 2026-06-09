@@ -7,6 +7,7 @@ interface CeramicCardProps {
 export default function CeramicCard({ title, description, image }: CeramicCardProps) {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={image}
         alt={title}

@@ -15,3 +15,7 @@
  GET /favicon.ico?favicon.0b3bf435.ico 200 in 511ms
  GET / 200 in 110ms
  GET /favicon.ico?favicon.0b3bf435.ico 200 in 293ms
+ ✓ Compiled in 166ms
+ ✓ Compiled / in 40ms
+ GET / 200 in 207ms
+ GET / 200 in 224ms

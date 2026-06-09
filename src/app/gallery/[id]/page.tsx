@@ -44,6 +44,7 @@ export default function PieceDetailPage({ params }: { params: Promise<{ id: stri
                   className="bg-gray-200 aspect-square overflow-hidden rounded-sm cursor-pointer hover:opacity-80 transition"
                   onClick={() => setSelectedImageIndex(idx)}
                 >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={img}
                     alt={`${piece.name} - view ${idx + 1}`}
@@ -114,6 +115,7 @@ export default function PieceDetailPage({ params }: { params: Promise<{ id: stri
           onClick={() => setSelectedImageIndex(null)}
         >
           <div className="relative w-full h-full flex items-center justify-center p-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={piece.images[selectedImageIndex]}
               alt="Full resolution"
